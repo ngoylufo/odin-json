@@ -1,0 +1,2306 @@
+[
+	{
+		"name": "Afghanistan",
+		"a2cc": "AF",
+		"a3cc": "AFG",
+		"numeric": 4,
+		"lat": 33,
+		"long": 65,
+		"timezone": "Asia/Kabul"
+	},
+	{
+		"name": "Albania",
+		"a2cc": "AL",
+		"a3cc": "ALB",
+		"numeric": 8,
+		"lat": 41,
+		"long": 20,
+		"timezone": "Europe/Tirane"
+	},
+	{
+		"name": "Algeria",
+		"a2cc": "DZ",
+		"a3cc": "DZA",
+		"numeric": 12,
+		"lat": 28,
+		"long": 3,
+		"timezone": "Africa/Algiers"
+	},
+	{
+		"name": "American Samoa",
+		"a2cc": "AS",
+		"a3cc": "ASM",
+		"numeric": 16,
+		"lat": -14.3333,
+		"long": -170,
+		"timezone": "Pacific/Pago_Pago"
+	},
+	{
+		"name": "Andorra",
+		"a2cc": "AD",
+		"a3cc": "AND",
+		"numeric": 20,
+		"lat": 42.5,
+		"long": 1.6,
+		"timezone": "Europe/Andorra"
+	},
+	{
+		"name": "Angola",
+		"a2cc": "AO",
+		"a3cc": "AGO",
+		"numeric": 24,
+		"lat": -12.5,
+		"long": 18.5,
+		"timezone": "Africa/Luanda"
+	},
+	{
+		"name": "Anguilla",
+		"a2cc": "AI",
+		"a3cc": "AIA",
+		"numeric": 660,
+		"lat": 18.25,
+		"long": -63.1667,
+		"timezone": "America/Anguilla"
+	},
+	{
+		"name": "Antarctica",
+		"a2cc": "AQ",
+		"a3cc": "ATA",
+		"numeric": 10,
+		"lat": -90,
+		"long": 0,
+		"timezone": "Antarctica/Vostok"
+	},
+	{
+		"name": "Antigua and Barbuda",
+		"a2cc": "AG",
+		"a3cc": "ATG",
+		"numeric": 28,
+		"lat": 17.05,
+		"long": -61.8,
+		"timezone": "America/Antigua"
+	},
+	{
+		"name": "Argentina",
+		"a2cc": "AR",
+		"a3cc": "ARG",
+		"numeric": 32,
+		"lat": -34,
+		"long": -64,
+		"timezone": "America/Argentina/Ushuaia"
+	},
+	{
+		"name": "Armenia",
+		"a2cc": "AM",
+		"a3cc": "ARM",
+		"numeric": 51,
+		"lat": 40,
+		"long": 45,
+		"timezone": "Asia/Yerevan"
+	},
+	{
+		"name": "Aruba",
+		"a2cc": "AW",
+		"a3cc": "ABW",
+		"numeric": 533,
+		"lat": 12.5,
+		"long": -69.9667,
+		"timezone": "America/Aruba"
+	},
+	{
+		"name": "Australia",
+		"a2cc": "AU",
+		"a3cc": "AUS",
+		"numeric": 36,
+		"lat": -27,
+		"long": 133,
+		"timezone": "Australia/Sydney"
+	},
+	{
+		"name": "Austria",
+		"a2cc": "AT",
+		"a3cc": "AUT",
+		"numeric": 40,
+		"lat": 47.3333,
+		"long": 13.3333,
+		"timezone": "Europe/Vienna"
+	},
+	{
+		"name": "Azerbaijan",
+		"a2cc": "AZ",
+		"a3cc": "AZE",
+		"numeric": 31,
+		"lat": 40.5,
+		"long": 47.5,
+		"timezone": "Asia/Baku"
+	},
+	{
+		"name": "Bahamas",
+		"a2cc": "BS",
+		"a3cc": "BHS",
+		"numeric": 44,
+		"lat": 24.25,
+		"long": -76,
+		"timezone": "America/Nassau"
+	},
+	{
+		"name": "Bahrain",
+		"a2cc": "BH",
+		"a3cc": "BHR",
+		"numeric": 48,
+		"lat": 26,
+		"long": 50.55,
+		"timezone": "Asia/Bahrain"
+	},
+	{
+		"name": "Bangladesh",
+		"a2cc": "BD",
+		"a3cc": "BGD",
+		"numeric": 50,
+		"lat": 24,
+		"long": 90,
+		"timezone": "Asia/Dhaka"
+	},
+	{
+		"name": "Barbados",
+		"a2cc": "BB",
+		"a3cc": "BRB",
+		"numeric": 52,
+		"lat": 13.1667,
+		"long": -59.5333,
+		"timezone": "America/Barbados"
+	},
+	{
+		"name": "Belarus",
+		"a2cc": "BY",
+		"a3cc": "BLR",
+		"numeric": 112,
+		"lat": 53,
+		"long": 28,
+		"timezone": "Europe/Minsk"
+	},
+	{
+		"name": "Belgium",
+		"a2cc": "BE",
+		"a3cc": "BEL",
+		"numeric": 56,
+		"lat": 50.8333,
+		"long": 4,
+		"timezone": "Europe/Brussels"
+	},
+	{
+		"name": "Belize",
+		"a2cc": "BZ",
+		"a3cc": "BLZ",
+		"numeric": 84,
+		"lat": 17.25,
+		"long": -88.75,
+		"timezone": "America/Belize"
+	},
+	{
+		"name": "Benin",
+		"a2cc": "BJ",
+		"a3cc": "BEN",
+		"numeric": 204,
+		"lat": 9.5,
+		"long": 2.25,
+		"timezone": "Africa/Porto-Novo"
+	},
+	{
+		"name": "Bermuda",
+		"a2cc": "BM",
+		"a3cc": "BMU",
+		"numeric": 60,
+		"lat": 32.3333,
+		"long": -64.75,
+		"timezone": "Atlantic/Bermuda"
+	},
+	{
+		"name": "Bhutan",
+		"a2cc": "BT",
+		"a3cc": "BTN",
+		"numeric": 64,
+		"lat": 27.5,
+		"long": 90.5,
+		"timezone": "Asia/Thimphu"
+	},
+	{
+		"name": "Bolivia,Plurinational State of",
+		"a2cc": "BO",
+		"a3cc": "BOL",
+		"numeric": 68,
+		"lat": -17,
+		"long": -65,
+		"timezone": "America/La_Paz"
+	},
+	{
+		"name": "Bolivia",
+		"a2cc": "BO",
+		"a3cc": "BOL",
+		"numeric": 68,
+		"lat": -17,
+		"long": -65,
+		"timezone": "America/La_Paz"
+	},
+	{
+		"name": "Bosnia and Herzegovina",
+		"a2cc": "BA",
+		"a3cc": "BIH",
+		"numeric": 70,
+		"lat": 44,
+		"long": 18,
+		"timezone": "Europe/Sarajevo"
+	},
+	{
+		"name": "Botswana",
+		"a2cc": "BW",
+		"a3cc": "BWA",
+		"numeric": 72,
+		"lat": -22,
+		"long": 24,
+		"timezone": "Africa/Gaborone"
+	},
+	{
+		"name": "Bouvet Island",
+		"a2cc": "BV",
+		"a3cc": "BVT",
+		"numeric": 74,
+		"lat": -54.4333,
+		"long": 3.4,
+		"timezone": "Asia/Thimphu"
+	},
+	{
+		"name": "Brazil",
+		"a2cc": "BR",
+		"a3cc": "BRA",
+		"numeric": 76,
+		"lat": -10,
+		"long": -55,
+		"timezone": "America/Sao_Paulo"
+	},
+	{
+		"name": "British Indian Ocean Territory",
+		"a2cc": "IO",
+		"a3cc": "IOT",
+		"numeric": 86,
+		"lat": -6,
+		"long": 71.5,
+		"timezone": "Indian/Chagos"
+	},
+	{
+		"name": "Brunei Darussalam",
+		"a2cc": "BN",
+		"a3cc": "BRN",
+		"numeric": 96,
+		"lat": 4.5,
+		"long": 114.6667,
+		"timezone": "Asia/Brunei"
+	},
+	{
+		"name": "Brunei",
+		"a2cc": "BN",
+		"a3cc": "BRN",
+		"numeric": 96,
+		"lat": 4.5,
+		"long": 114.6667,
+		"timezone": "Asia/Brunei"
+	},
+	{
+		"name": "Bulgaria",
+		"a2cc": "BG",
+		"a3cc": "BGR",
+		"numeric": 100,
+		"lat": 43,
+		"long": 25,
+		"timezone": "Europe/Sofia"
+	},
+	{
+		"name": "Burkina Faso",
+		"a2cc": "BF",
+		"a3cc": "BFA",
+		"numeric": 854,
+		"lat": 13,
+		"long": -2,
+		"timezone": "Africa/Ouagadougou"
+	},
+	{
+		"name": "Burundi",
+		"a2cc": "BI",
+		"a3cc": "BDI",
+		"numeric": 108,
+		"lat": -3.5,
+		"long": 30,
+		"timezone": "Africa/Bujumbura"
+	},
+	{
+		"name": "Cambodia",
+		"a2cc": "KH",
+		"a3cc": "KHM",
+		"numeric": 116,
+		"lat": 13,
+		"long": 105,
+		"timezone": "Asia/Phnom_Penh"
+	},
+	{
+		"name": "Cameroon",
+		"a2cc": "CM",
+		"a3cc": "CMR",
+		"numeric": 120,
+		"lat": 6,
+		"long": 12,
+		"timezone": "Africa/Douala"
+	},
+	{
+		"name": "Canada",
+		"a2cc": "CA",
+		"a3cc": "CAN",
+		"numeric": 124,
+		"lat": 60,
+		"long": -95,
+		"timezone": "America/Winnipeg"
+	},
+	{
+		"name": "Cape Verde",
+		"a2cc": "CV",
+		"a3cc": "CPV",
+		"numeric": 132,
+		"lat": 16,
+		"long": -24,
+		"timezone": "Atlantic/Cape_Verde"
+	},
+	{
+		"name": "Cayman Islands",
+		"a2cc": "KY",
+		"a3cc": "CYM",
+		"numeric": 136,
+		"lat": 19.5,
+		"long": -80.5,
+		"timezone": "America/Cayman"
+	},
+	{
+		"name": "Central African Republic",
+		"a2cc": "CF",
+		"a3cc": "CAF",
+		"numeric": 140,
+		"lat": 7,
+		"long": 21,
+		"timezone": "Africa/Bangui"
+	},
+	{
+		"name": "Chad",
+		"a2cc": "TD",
+		"a3cc": "TCD",
+		"numeric": 148,
+		"lat": 15,
+		"long": 19,
+		"timezone": "Africa/Ndjamena"
+	},
+	{
+		"name": "Chile",
+		"a2cc": "CL",
+		"a3cc": "CHL",
+		"numeric": 152,
+		"lat": -30,
+		"long": -71,
+		"timezone": "Pacific/Easter"
+	},
+	{
+		"name": "China",
+		"a2cc": "CN",
+		"a3cc": "CHN",
+		"numeric": 156,
+		"lat": 35,
+		"long": 105,
+		"timezone": "Asia/Urumqi"
+	},
+	{
+		"name": "Christmas Island",
+		"a2cc": "CX",
+		"a3cc": "CXR",
+		"numeric": 162,
+		"lat": -10.5,
+		"long": 105.6667,
+		"timezone": "Indian/Christmas"
+	},
+	{
+		"name": "Cocos (Keeling) Islands",
+		"a2cc": "CC",
+		"a3cc": "CCK",
+		"numeric": 166,
+		"lat": -12.5,
+		"long": 96.8333,
+		"timezone": "Indian/Cocos"
+	},
+	{
+		"name": "Colombia",
+		"a2cc": "CO",
+		"a3cc": "COL",
+		"numeric": 170,
+		"lat": 4,
+		"long": -72,
+		"timezone": "America/Bogota"
+	},
+	{
+		"name": "Comoros",
+		"a2cc": "KM",
+		"a3cc": "COM",
+		"numeric": 174,
+		"lat": -12.1667,
+		"long": 44.25,
+		"timezone": "Indian/Comoro"
+	},
+	{
+		"name": "Congo",
+		"a2cc": "CG",
+		"a3cc": "COG",
+		"numeric": 178,
+		"lat": -1,
+		"long": 15,
+		"timezone": "Africa/Brazzaville"
+	},
+	{
+		"name": "Congo,the Democratic Republic of the",
+		"a2cc": "CD",
+		"a3cc": "COD",
+		"numeric": 180,
+		"lat": 0,
+		"long": 25,
+		"timezone": "Africa/Lubumbashi"
+	},
+	{
+		"name": "Cook Islands",
+		"a2cc": "CK",
+		"a3cc": "COK",
+		"numeric": 184,
+		"lat": -21.2333,
+		"long": -159.7667,
+		"timezone": "Pacific/Rarotonga"
+	},
+	{
+		"name": "Costa Rica",
+		"a2cc": "CR",
+		"a3cc": "CRI",
+		"numeric": 188,
+		"lat": 10,
+		"long": -84,
+		"timezone": "America/Costa_Rica"
+	},
+	{
+		"name": "Côte d'Ivoire",
+		"a2cc": "CI",
+		"a3cc": "CIV",
+		"numeric": 384,
+		"lat": 8,
+		"long": -5,
+		"timezone": "Africa/Abidjan"
+	},
+	{
+		"name": "Ivory Coast",
+		"a2cc": "CI",
+		"a3cc": "CIV",
+		"numeric": 384,
+		"lat": 8,
+		"long": -5,
+		"timezone": "Africa/Abidjan"
+	},
+	{
+		"name": "Croatia",
+		"a2cc": "HR",
+		"a3cc": "HRV",
+		"numeric": 191,
+		"lat": 45.1667,
+		"long": 15.5,
+		"timezone": "Europe/Zagreb"
+	},
+	{
+		"name": "Cuba",
+		"a2cc": "CU",
+		"a3cc": "CUB",
+		"numeric": 192,
+		"lat": 21.5,
+		"long": -80,
+		"timezone": "America/Havana"
+	},
+	{
+		"name": "Cyprus",
+		"a2cc": "CY",
+		"a3cc": "CYP",
+		"numeric": 196,
+		"lat": 35,
+		"long": 33,
+		"timezone": "Asia/Nicosia"
+	},
+	{
+		"name": "Czech Republic",
+		"a2cc": "CZ",
+		"a3cc": "CZE",
+		"numeric": 203,
+		"lat": 49.75,
+		"long": 15.5,
+		"timezone": "Europe/Prague"
+	},
+	{
+		"name": "Denmark",
+		"a2cc": "DK",
+		"a3cc": "DNK",
+		"numeric": 208,
+		"lat": 56,
+		"long": 10,
+		"timezone": "Europe/Copenhagen"
+	},
+	{
+		"name": "Djibouti",
+		"a2cc": "DJ",
+		"a3cc": "DJI",
+		"numeric": 262,
+		"lat": 11.5,
+		"long": 43,
+		"timezone": "Africa/Djibouti"
+	},
+	{
+		"name": "Dominica",
+		"a2cc": "DM",
+		"a3cc": "DMA",
+		"numeric": 212,
+		"lat": 15.4167,
+		"long": -61.3333,
+		"timezone": "America/Dominica"
+	},
+	{
+		"name": "Dominican Republic",
+		"a2cc": "DO",
+		"a3cc": "DOM",
+		"numeric": 214,
+		"lat": 19,
+		"long": -70.6667,
+		"timezone": "America/Santo_Domingo"
+	},
+	{
+		"name": "Ecuador",
+		"a2cc": "EC",
+		"a3cc": "ECU",
+		"numeric": 218,
+		"lat": -2,
+		"long": -77.5,
+		"timezone": "Pacific/Galapagos"
+	},
+	{
+		"name": "Egypt",
+		"a2cc": "EG",
+		"a3cc": "EGY",
+		"numeric": 818,
+		"lat": 27,
+		"long": 30,
+		"timezone": "Africa/Cairo"
+	},
+	{
+		"name": "El Salvador",
+		"a2cc": "SV",
+		"a3cc": "SLV",
+		"numeric": 222,
+		"lat": 13.8333,
+		"long": -88.9167,
+		"timezone": "America/El_Salvador"
+	},
+	{
+		"name": "Equatorial Guinea",
+		"a2cc": "GQ",
+		"a3cc": "GNQ",
+		"numeric": 226,
+		"lat": 2,
+		"long": 10,
+		"timezone": "Africa/Malabo"
+	},
+	{
+		"name": "Eritrea",
+		"a2cc": "ER",
+		"a3cc": "ERI",
+		"numeric": 232,
+		"lat": 15,
+		"long": 39,
+		"timezone": "Africa/Asmara"
+	},
+	{
+		"name": "Estonia",
+		"a2cc": "EE",
+		"a3cc": "EST",
+		"numeric": 233,
+		"lat": 59,
+		"long": 26,
+		"timezone": "Europe/Tallinn"
+	},
+	{
+		"name": "Ethiopia",
+		"a2cc": "ET",
+		"a3cc": "ETH",
+		"numeric": 231,
+		"lat": 8,
+		"long": 38,
+		"timezone": "Africa/Addis_Ababa"
+	},
+	{
+		"name": "Falkland Islands (Malvinas)",
+		"a2cc": "FK",
+		"a3cc": "FLK",
+		"numeric": 238,
+		"lat": -51.75,
+		"long": -59,
+		"timezone": "Atlantic/Stanley"
+	},
+	{
+		"name": "Faroe Islands",
+		"a2cc": "FO",
+		"a3cc": "FRO",
+		"numeric": 234,
+		"lat": 62,
+		"long": -7,
+		"timezone": "Atlantic/Faroe"
+	},
+	{
+		"name": "Fiji",
+		"a2cc": "FJ",
+		"a3cc": "FJI",
+		"numeric": 242,
+		"lat": -18,
+		"long": 175,
+		"timezone": "Pacific/Fiji"
+	},
+	{
+		"name": "Finland",
+		"a2cc": "FI",
+		"a3cc": "FIN",
+		"numeric": 246,
+		"lat": 64,
+		"long": 26,
+		"timezone": "Europe/Helsinki"
+	},
+	{
+		"name": "France",
+		"a2cc": "FR",
+		"a3cc": "FRA",
+		"numeric": 250,
+		"lat": 46,
+		"long": 2,
+		"timezone": "Europe/Paris"
+	},
+	{
+		"name": "French Guiana",
+		"a2cc": "GF",
+		"a3cc": "GUF",
+		"numeric": 254,
+		"lat": 4,
+		"long": -53,
+		"timezone": "America/Cayenne"
+	},
+	{
+		"name": "French Polynesia",
+		"a2cc": "PF",
+		"a3cc": "PYF",
+		"numeric": 258,
+		"lat": -15,
+		"long": -140,
+		"timezone": "Pacific/Tahiti"
+	},
+	{
+		"name": "French Southern Territories",
+		"a2cc": "TF",
+		"a3cc": "ATF",
+		"numeric": 260,
+		"lat": -43,
+		"long": 67,
+		"timezone": "Indian/Kerguelen"
+	},
+	{
+		"name": "Gabon",
+		"a2cc": "GA",
+		"a3cc": "GAB",
+		"numeric": 266,
+		"lat": -1,
+		"long": 11.75,
+		"timezone": "Africa/Libreville"
+	},
+	{
+		"name": "Gambia",
+		"a2cc": "GM",
+		"a3cc": "GMB",
+		"numeric": 270,
+		"lat": 13.4667,
+		"long": -16.5667,
+		"timezone": "Africa/Banjul"
+	},
+	{
+		"name": "Georgia",
+		"a2cc": "GE",
+		"a3cc": "GEO",
+		"numeric": 268,
+		"lat": 42,
+		"long": 43.5,
+		"timezone": "Asia/Tbilisi"
+	},
+	{
+		"name": "Germany",
+		"a2cc": "DE",
+		"a3cc": "DEU",
+		"numeric": 276,
+		"lat": 51,
+		"long": 9,
+		"timezone": "Europe/Busingen"
+	},
+	{
+		"name": "Ghana",
+		"a2cc": "GH",
+		"a3cc": "GHA",
+		"numeric": 288,
+		"lat": 8,
+		"long": -2,
+		"timezone": "Africa/Accra"
+	},
+	{
+		"name": "Gibraltar",
+		"a2cc": "GI",
+		"a3cc": "GIB",
+		"numeric": 292,
+		"lat": 36.1833,
+		"long": -5.3667,
+		"timezone": "Europe/Gibraltar"
+	},
+	{
+		"name": "Greece",
+		"a2cc": "GR",
+		"a3cc": "GRC",
+		"numeric": 300,
+		"lat": 39,
+		"long": 22,
+		"timezone": "Europe/Athens"
+	},
+	{
+		"name": "Greenland",
+		"a2cc": "GL",
+		"a3cc": "GRL",
+		"numeric": 304,
+		"lat": 72,
+		"long": -40,
+		"timezone": "America/Thule"
+	},
+	{
+		"name": "Grenada",
+		"a2cc": "GD",
+		"a3cc": "GRD",
+		"numeric": 308,
+		"lat": 12.1167,
+		"long": -61.6667,
+		"timezone": "America/Grenada"
+	},
+	{
+		"name": "Guadeloupe",
+		"a2cc": "GP",
+		"a3cc": "GLP",
+		"numeric": 312,
+		"lat": 16.25,
+		"long": -61.5833,
+		"timezone": "America/Guadeloupe"
+	},
+	{
+		"name": "Guam",
+		"a2cc": "GU",
+		"a3cc": "GUM",
+		"numeric": 316,
+		"lat": 13.4667,
+		"long": 144.7833,
+		"timezone": "Pacific/Guam"
+	},
+	{
+		"name": "Guatemala",
+		"a2cc": "GT",
+		"a3cc": "GTM",
+		"numeric": 320,
+		"lat": 15.5,
+		"long": -90.25,
+		"timezone": "America/Guatemala"
+	},
+	{
+		"name": "Guernsey",
+		"a2cc": "GG",
+		"a3cc": "GGY",
+		"numeric": 831,
+		"lat": 49.5,
+		"long": -2.56,
+		"timezone": "Europe/Guernsey"
+	},
+	{
+		"name": "Guinea",
+		"a2cc": "GN",
+		"a3cc": "GIN",
+		"numeric": 324,
+		"lat": 11,
+		"long": -10,
+		"timezone": "Africa/Conakry"
+	},
+	{
+		"name": "Guinea-Bissau",
+		"a2cc": "GW",
+		"a3cc": "GNB",
+		"numeric": 624,
+		"lat": 12,
+		"long": -15,
+		"timezone": "Africa/Bissau"
+	},
+	{
+		"name": "Guyana",
+		"a2cc": "GY",
+		"a3cc": "GUY",
+		"numeric": 328,
+		"lat": 5,
+		"long": -59,
+		"timezone": "America/Guyana"
+	},
+	{
+		"name": "Haiti",
+		"a2cc": "HT",
+		"a3cc": "HTI",
+		"numeric": 332,
+		"lat": 19,
+		"long": -72.4167,
+		"timezone": "America/Port-au-Prince"
+	},
+	{
+		"name": "Heard Island and McDonald Islands",
+		"a2cc": "HM",
+		"a3cc": "HMD",
+		"numeric": 334,
+		"lat": -53.1,
+		"long": 72.5167,
+		"timezone": "Asia/Hong_Kong"
+	},
+	{
+		"name": "Holy See (Vatican City State)",
+		"a2cc": "VA",
+		"a3cc": "VAT",
+		"numeric": 336,
+		"lat": 41.9,
+		"long": 12.45,
+		"timezone": "Europe/Vatican"
+	},
+	{
+		"name": "Honduras",
+		"a2cc": "HN",
+		"a3cc": "HND",
+		"numeric": 340,
+		"lat": 15,
+		"long": -86.5,
+		"timezone": "America/Tegucigalpa"
+	},
+	{
+		"name": "Hong Kong",
+		"a2cc": "HK",
+		"a3cc": "HKG",
+		"numeric": 344,
+		"lat": 22.25,
+		"long": 114.1667,
+		"timezone": "Asia/Hong_Kong"
+	},
+	{
+		"name": "Hungary",
+		"a2cc": "HU",
+		"a3cc": "HUN",
+		"numeric": 348,
+		"lat": 47,
+		"long": 20,
+		"timezone": "Europe/Budapest"
+	},
+	{
+		"name": "Iceland",
+		"a2cc": "IS",
+		"a3cc": "ISL",
+		"numeric": 352,
+		"lat": 65,
+		"long": -18,
+		"timezone": "Atlantic/Reykjavik"
+	},
+	{
+		"name": "India",
+		"a2cc": "IN",
+		"a3cc": "IND",
+		"numeric": 356,
+		"lat": 20,
+		"long": 77,
+		"timezone": "Asia/Kolkata"
+	},
+	{
+		"name": "Indonesia",
+		"a2cc": "ID",
+		"a3cc": "IDN",
+		"numeric": 360,
+		"lat": -5,
+		"long": 120,
+		"timezone": "Asia/Pontianak"
+	},
+	{
+		"name": "Iran,Islamic Republic of",
+		"a2cc": "IR",
+		"a3cc": "IRN",
+		"numeric": 364,
+		"lat": 32,
+		"long": 53,
+		"timezone": "Asia/Tehran"
+	},
+	{
+		"name": "Iraq",
+		"a2cc": "IQ",
+		"a3cc": "IRQ",
+		"numeric": 368,
+		"lat": 33,
+		"long": 44,
+		"timezone": "Asia/Baghdad"
+	},
+	{
+		"name": "Ireland",
+		"a2cc": "IE",
+		"a3cc": "IRL",
+		"numeric": 372,
+		"lat": 53,
+		"long": -8,
+		"timezone": "Europe/Dublin"
+	},
+	{
+		"name": "Isle of Man",
+		"a2cc": "IM",
+		"a3cc": "IMN",
+		"numeric": 833,
+		"lat": 54.23,
+		"long": -4.55,
+		"timezone": "Europe/Isle_of_Man"
+	},
+	{
+		"name": "Israel",
+		"a2cc": "IL",
+		"a3cc": "ISR",
+		"numeric": 376,
+		"lat": 31.5,
+		"long": 34.75,
+		"timezone": "Asia/Jerusalem"
+	},
+	{
+		"name": "Italy",
+		"a2cc": "IT",
+		"a3cc": "ITA",
+		"numeric": 380,
+		"lat": 42.8333,
+		"long": 12.8333,
+		"timezone": "Europe/Rome"
+	},
+	{
+		"name": "Jamaica",
+		"a2cc": "JM",
+		"a3cc": "JAM",
+		"numeric": 388,
+		"lat": 18.25,
+		"long": -77.5,
+		"timezone": "America/Jamaica"
+	},
+	{
+		"name": "Japan",
+		"a2cc": "JP",
+		"a3cc": "JPN",
+		"numeric": 392,
+		"lat": 36,
+		"long": 138,
+		"timezone": "Asia/Tokyo"
+	},
+	{
+		"name": "Jersey",
+		"a2cc": "JE",
+		"a3cc": "JEY",
+		"numeric": 832,
+		"lat": 49.21,
+		"long": -2.13,
+		"timezone": "Europe/Jersey"
+	},
+	{
+		"name": "Jordan",
+		"a2cc": "JO",
+		"a3cc": "JOR",
+		"numeric": 400,
+		"lat": 31,
+		"long": 36,
+		"timezone": "Asia/Amman"
+	},
+	{
+		"name": "Kazakhstan",
+		"a2cc": "KZ",
+		"a3cc": "KAZ",
+		"numeric": 398,
+		"lat": 48,
+		"long": 68,
+		"timezone": "Asia/Qyzylorda"
+	},
+	{
+		"name": "Kenya",
+		"a2cc": "KE",
+		"a3cc": "KEN",
+		"numeric": 404,
+		"lat": 1,
+		"long": 38,
+		"timezone": "Africa/Nairobi"
+	},
+	{
+		"name": "Kiribati",
+		"a2cc": "KI",
+		"a3cc": "KIR",
+		"numeric": 296,
+		"lat": 1.4167,
+		"long": 173,
+		"timezone": "Pacific/Tarawa"
+	},
+	{
+		"name": "Korea,Democratic People's Republic of",
+		"a2cc": "KP",
+		"a3cc": "PRK",
+		"numeric": 408,
+		"lat": 40,
+		"long": 127,
+		"timezone": "Asia/Pyongyang"
+	},
+	{
+		"name": "Korea,Republic of",
+		"a2cc": "KR",
+		"a3cc": "KOR",
+		"numeric": 410,
+		"lat": 37,
+		"long": 127.5,
+		"timezone": "Asia/Seoul"
+	},
+	{
+		"name": "South Korea",
+		"a2cc": "KR",
+		"a3cc": "KOR",
+		"numeric": 410,
+		"lat": 37,
+		"long": 127.5,
+		"timezone": "Asia/Seoul"
+	},
+	{
+		"name": "Kuwait",
+		"a2cc": "KW",
+		"a3cc": "KWT",
+		"numeric": 414,
+		"lat": 29.3375,
+		"long": 47.6581,
+		"timezone": "Asia/Kuwait"
+	},
+	{
+		"name": "Kyrgyzstan",
+		"a2cc": "KG",
+		"a3cc": "KGZ",
+		"numeric": 417,
+		"lat": 41,
+		"long": 75,
+		"timezone": "Asia/Bishkek"
+	},
+	{
+		"name": "Lao People's Democratic Republic",
+		"a2cc": "LA",
+		"a3cc": "LAO",
+		"numeric": 418,
+		"lat": 18,
+		"long": 105,
+		"timezone": "Asia/Vientiane"
+	},
+	{
+		"name": "Latvia",
+		"a2cc": "LV",
+		"a3cc": "LVA",
+		"numeric": 428,
+		"lat": 57,
+		"long": 25,
+		"timezone": "Europe/Riga"
+	},
+	{
+		"name": "Lebanon",
+		"a2cc": "LB",
+		"a3cc": "LBN",
+		"numeric": 422,
+		"lat": 33.8333,
+		"long": 35.8333,
+		"timezone": "Asia/Beirut"
+	},
+	{
+		"name": "Lesotho",
+		"a2cc": "LS",
+		"a3cc": "LSO",
+		"numeric": 426,
+		"lat": -29.5,
+		"long": 28.5,
+		"timezone": "Africa/Maseru"
+	},
+	{
+		"name": "Liberia",
+		"a2cc": "LR",
+		"a3cc": "LBR",
+		"numeric": 430,
+		"lat": 6.5,
+		"long": -9.5,
+		"timezone": "Africa/Monrovia"
+	},
+	{
+		"name": "Libyan Arab Jamahiriya",
+		"a2cc": "LY",
+		"a3cc": "LBY",
+		"numeric": 434,
+		"lat": 25,
+		"long": 17,
+		"timezone": "Africa/Tripoli"
+	},
+	{
+		"name": "Libya",
+		"a2cc": "LY",
+		"a3cc": "LBY",
+		"numeric": 434,
+		"lat": 25,
+		"long": 17,
+		"timezone": "Africa/Tripoli"
+	},
+	{
+		"name": "Liechtenstein",
+		"a2cc": "LI",
+		"a3cc": "LIE",
+		"numeric": 438,
+		"lat": 47.1667,
+		"long": 9.5333,
+		"timezone": "Europe/Vaduz"
+	},
+	{
+		"name": "Lithuania",
+		"a2cc": "LT",
+		"a3cc": "LTU",
+		"numeric": 440,
+		"lat": 56,
+		"long": 24,
+		"timezone": "Europe/Vilnius"
+	},
+	{
+		"name": "Luxembourg",
+		"a2cc": "LU",
+		"a3cc": "LUX",
+		"numeric": 442,
+		"lat": 49.75,
+		"long": 6.1667,
+		"timezone": "Europe/Luxembourg"
+	},
+	{
+		"name": "Macao",
+		"a2cc": "MO",
+		"a3cc": "MAC",
+		"numeric": 446,
+		"lat": 22.1667,
+		"long": 113.55,
+		"timezone": "Asia/Macau"
+	},
+	{
+		"name": "Macedonia,the former Yugoslav Republic of",
+		"a2cc": "MK",
+		"a3cc": "MKD",
+		"numeric": 807,
+		"lat": 41.8333,
+		"long": 22,
+		"timezone": "Europe/Skopje"
+	},
+	{
+		"name": "Madagascar",
+		"a2cc": "MG",
+		"a3cc": "MDG",
+		"numeric": 450,
+		"lat": -20,
+		"long": 47,
+		"timezone": "Indian/Antananarivo"
+	},
+	{
+		"name": "Malawi",
+		"a2cc": "MW",
+		"a3cc": "MWI",
+		"numeric": 454,
+		"lat": -13.5,
+		"long": 34,
+		"timezone": "Africa/Blantyre"
+	},
+	{
+		"name": "Malaysia",
+		"a2cc": "MY",
+		"a3cc": "MYS",
+		"numeric": 458,
+		"lat": 2.5,
+		"long": 112.5,
+		"timezone": "Asia/Kuching"
+	},
+	{
+		"name": "Maldives",
+		"a2cc": "MV",
+		"a3cc": "MDV",
+		"numeric": 462,
+		"lat": 3.25,
+		"long": 73,
+		"timezone": "Indian/Maldives"
+	},
+	{
+		"name": "Mali",
+		"a2cc": "ML",
+		"a3cc": "MLI",
+		"numeric": 466,
+		"lat": 17,
+		"long": -4,
+		"timezone": "Africa/Bamako"
+	},
+	{
+		"name": "Malta",
+		"a2cc": "MT",
+		"a3cc": "MLT",
+		"numeric": 470,
+		"lat": 35.8333,
+		"long": 14.5833,
+		"timezone": "Europe/Malta"
+	},
+	{
+		"name": "Marshall Islands",
+		"a2cc": "MH",
+		"a3cc": "MHL",
+		"numeric": 584,
+		"lat": 9,
+		"long": 168,
+		"timezone": "Pacific/Majuro"
+	},
+	{
+		"name": "Martinique",
+		"a2cc": "MQ",
+		"a3cc": "MTQ",
+		"numeric": 474,
+		"lat": 14.6667,
+		"long": -61,
+		"timezone": "America/Martinique"
+	},
+	{
+		"name": "Mauritania",
+		"a2cc": "MR",
+		"a3cc": "MRT",
+		"numeric": 478,
+		"lat": 20,
+		"long": -12,
+		"timezone": "Africa/Nouakchott"
+	},
+	{
+		"name": "Mauritius",
+		"a2cc": "MU",
+		"a3cc": "MUS",
+		"numeric": 480,
+		"lat": -20.2833,
+		"long": 57.55,
+		"timezone": "Indian/Mauritius"
+	},
+	{
+		"name": "Mayotte",
+		"a2cc": "YT",
+		"a3cc": "MYT",
+		"numeric": 175,
+		"lat": -12.8333,
+		"long": 45.1667,
+		"timezone": "Indian/Mayotte"
+	},
+	{
+		"name": "Mexico",
+		"a2cc": "MX",
+		"a3cc": "MEX",
+		"numeric": 484,
+		"lat": 23,
+		"long": -102,
+		"timezone": "America/Tijuana"
+	},
+	{
+		"name": "Micronesia,Federated States of",
+		"a2cc": "FM",
+		"a3cc": "FSM",
+		"numeric": 583,
+		"lat": 6.9167,
+		"long": 158.25,
+		"timezone": "Pacific/Pohnpei"
+	},
+	{
+		"name": "Moldova,Republic of",
+		"a2cc": "MD",
+		"a3cc": "MDA",
+		"numeric": 498,
+		"lat": 47,
+		"long": 29,
+		"timezone": "Europe/Chisinau"
+	},
+	{
+		"name": "Monaco",
+		"a2cc": "MC",
+		"a3cc": "MCO",
+		"numeric": 492,
+		"lat": 43.7333,
+		"long": 7.4,
+		"timezone": "Europe/Monaco"
+	},
+	{
+		"name": "Mongolia",
+		"a2cc": "MN",
+		"a3cc": "MNG",
+		"numeric": 496,
+		"lat": 46,
+		"long": 105,
+		"timezone": "Asia/Ulaanbaatar"
+	},
+	{
+		"name": "Montenegro",
+		"a2cc": "ME",
+		"a3cc": "MNE",
+		"numeric": 499,
+		"lat": 42,
+		"long": 19,
+		"timezone": "Europe/Podgorica"
+	},
+	{
+		"name": "Montserrat",
+		"a2cc": "MS",
+		"a3cc": "MSR",
+		"numeric": 500,
+		"lat": 16.75,
+		"long": -62.2,
+		"timezone": "America/Montserrat"
+	},
+	{
+		"name": "Morocco",
+		"a2cc": "MA",
+		"a3cc": "MAR",
+		"numeric": 504,
+		"lat": 32,
+		"long": -5,
+		"timezone": "Africa/El_Aaiun"
+	},
+	{
+		"name": "Mozambique",
+		"a2cc": "MZ",
+		"a3cc": "MOZ",
+		"numeric": 508,
+		"lat": -18.25,
+		"long": 35,
+		"timezone": "Africa/Maputo"
+	},
+	{
+		"name": "Myanmar",
+		"a2cc": "MM",
+		"a3cc": "MMR",
+		"numeric": 104,
+		"lat": 22,
+		"long": 98,
+		"timezone": "Asia/Yangon"
+	},
+	{
+		"name": "Burma",
+		"a2cc": "MM",
+		"a3cc": "MMR",
+		"numeric": 104,
+		"lat": 22,
+		"long": 98,
+		"timezone": "Asia/Yangon"
+	},
+	{
+		"name": "Namibia",
+		"a2cc": "NA",
+		"a3cc": "NAM",
+		"numeric": 516,
+		"lat": -22,
+		"long": 17,
+		"timezone": "Africa/Windhoek"
+	},
+	{
+		"name": "Nauru",
+		"a2cc": "NR",
+		"a3cc": "NRU",
+		"numeric": 520,
+		"lat": -0.5333,
+		"long": 166.9167,
+		"timezone": "Pacific/Nauru"
+	},
+	{
+		"name": "Nepal",
+		"a2cc": "NP",
+		"a3cc": "NPL",
+		"numeric": 524,
+		"lat": 28,
+		"long": 84,
+		"timezone": "Asia/Kathmandu"
+	},
+	{
+		"name": "Netherlands",
+		"a2cc": "NL",
+		"a3cc": "NLD",
+		"numeric": 528,
+		"lat": 52.5,
+		"long": 5.75,
+		"timezone": "Europe/Amsterdam"
+	},
+	{
+		"name": "Netherlands Antilles",
+		"a2cc": "AN",
+		"a3cc": "ANT",
+		"numeric": 530,
+		"lat": 12.25,
+		"long": -68.75,
+		"timezone": "Asia/Yerevan"
+	},
+	{
+		"name": "New Caledonia",
+		"a2cc": "NC",
+		"a3cc": "NCL",
+		"numeric": 540,
+		"lat": -21.5,
+		"long": 165.5,
+		"timezone": "Pacific/Noumea"
+	},
+	{
+		"name": "New Zealand",
+		"a2cc": "NZ",
+		"a3cc": "NZL",
+		"numeric": 554,
+		"lat": -41,
+		"long": 174,
+		"timezone": "Pacific/Chatham"
+	},
+	{
+		"name": "Nicaragua",
+		"a2cc": "NI",
+		"a3cc": "NIC",
+		"numeric": 558,
+		"lat": 13,
+		"long": -85,
+		"timezone": "America/Managua"
+	},
+	{
+		"name": "Niger",
+		"a2cc": "NE",
+		"a3cc": "NER",
+		"numeric": 562,
+		"lat": 16,
+		"long": 8,
+		"timezone": "Africa/Niamey"
+	},
+	{
+		"name": "Nigeria",
+		"a2cc": "NG",
+		"a3cc": "NGA",
+		"numeric": 566,
+		"lat": 10,
+		"long": 8,
+		"timezone": "Africa/Lagos"
+	},
+	{
+		"name": "Niue",
+		"a2cc": "NU",
+		"a3cc": "NIU",
+		"numeric": 570,
+		"lat": -19.0333,
+		"long": -169.8667,
+		"timezone": "Pacific/Niue"
+	},
+	{
+		"name": "Norfolk Island",
+		"a2cc": "NF",
+		"a3cc": "NFK",
+		"numeric": 574,
+		"lat": -29.0333,
+		"long": 167.95,
+		"timezone": "Pacific/Norfolk"
+	},
+	{
+		"name": "Northern Mariana Islands",
+		"a2cc": "MP",
+		"a3cc": "MNP",
+		"numeric": 580,
+		"lat": 15.2,
+		"long": 145.75,
+		"timezone": "Pacific/Saipan"
+	},
+	{
+		"name": "Norway",
+		"a2cc": "NO",
+		"a3cc": "NOR",
+		"numeric": 578,
+		"lat": 62,
+		"long": 10,
+		"timezone": "Europe/Oslo"
+	},
+	{
+		"name": "Oman",
+		"a2cc": "OM",
+		"a3cc": "OMN",
+		"numeric": 512,
+		"lat": 21,
+		"long": 57,
+		"timezone": "Asia/Muscat"
+	},
+	{
+		"name": "Pakistan",
+		"a2cc": "PK",
+		"a3cc": "PAK",
+		"numeric": 586,
+		"lat": 30,
+		"long": 70,
+		"timezone": "Asia/Karachi"
+	},
+	{
+		"name": "Palau",
+		"a2cc": "PW",
+		"a3cc": "PLW",
+		"numeric": 585,
+		"lat": 7.5,
+		"long": 134.5,
+		"timezone": "Pacific/Palau"
+	},
+	{
+		"name": "Palestinian Territory,Occupied",
+		"a2cc": "PS",
+		"a3cc": "PSE",
+		"numeric": 275,
+		"lat": 32,
+		"long": 35.25,
+		"timezone": "Asia/Hebron"
+	},
+	{
+		"name": "Panama",
+		"a2cc": "PA",
+		"a3cc": "PAN",
+		"numeric": 591,
+		"lat": 9,
+		"long": -80,
+		"timezone": "America/Panama"
+	},
+	{
+		"name": "Papua New Guinea",
+		"a2cc": "PG",
+		"a3cc": "PNG",
+		"numeric": 598,
+		"lat": -6,
+		"long": 147,
+		"timezone": "Pacific/Port_Moresby"
+	},
+	{
+		"name": "Paraguay",
+		"a2cc": "PY",
+		"a3cc": "PRY",
+		"numeric": 600,
+		"lat": -23,
+		"long": -58,
+		"timezone": "America/Asuncion"
+	},
+	{
+		"name": "Peru",
+		"a2cc": "PE",
+		"a3cc": "PER",
+		"numeric": 604,
+		"lat": -10,
+		"long": -76,
+		"timezone": "America/Lima"
+	},
+	{
+		"name": "Philippines",
+		"a2cc": "PH",
+		"a3cc": "PHL",
+		"numeric": 608,
+		"lat": 13,
+		"long": 122,
+		"timezone": "Asia/Manila"
+	},
+	{
+		"name": "Pitcairn",
+		"a2cc": "PN",
+		"a3cc": "PCN",
+		"numeric": 612,
+		"lat": -24.7,
+		"long": -127.4,
+		"timezone": "Pacific/Pitcairn"
+	},
+	{
+		"name": "Poland",
+		"a2cc": "PL",
+		"a3cc": "POL",
+		"numeric": 616,
+		"lat": 52,
+		"long": 20,
+		"timezone": "Europe/Warsaw"
+	},
+	{
+		"name": "Portugal",
+		"a2cc": "PT",
+		"a3cc": "PRT",
+		"numeric": 620,
+		"lat": 39.5,
+		"long": -8,
+		"timezone": "Europe/Lisbon"
+	},
+	{
+		"name": "Puerto Rico",
+		"a2cc": "PR",
+		"a3cc": "PRI",
+		"numeric": 630,
+		"lat": 18.25,
+		"long": -66.5,
+		"timezone": "America/Puerto_Rico"
+	},
+	{
+		"name": "Qatar",
+		"a2cc": "QA",
+		"a3cc": "QAT",
+		"numeric": 634,
+		"lat": 25.5,
+		"long": 51.25,
+		"timezone": "Asia/Qatar"
+	},
+	{
+		"name": "Réunion",
+		"a2cc": "RE",
+		"a3cc": "REU",
+		"numeric": 638,
+		"lat": -21.1,
+		"long": 55.6,
+		"timezone": "Indian/Reunion"
+	},
+	{
+		"name": "Romania",
+		"a2cc": "RO",
+		"a3cc": "ROU",
+		"numeric": 642,
+		"lat": 46,
+		"long": 25,
+		"timezone": "Europe/Bucharest"
+	},
+	{
+		"name": "Russian Federation",
+		"a2cc": "RU",
+		"a3cc": "RUS",
+		"numeric": 643,
+		"lat": 60,
+		"long": 100,
+		"timezone": "Europe/Volgograd"
+	},
+	{
+		"name": "Russia",
+		"a2cc": "RU",
+		"a3cc": "RUS",
+		"numeric": 643,
+		"lat": 60,
+		"long": 100,
+		"timezone": "Europe/Volgograd"
+	},
+	{
+		"name": "Rwanda",
+		"a2cc": "RW",
+		"a3cc": "RWA",
+		"numeric": 646,
+		"lat": -2,
+		"long": 30,
+		"timezone": "Africa/Kigali"
+	},
+	{
+		"name": "Saint Helena,Ascension and Tristan da Cunha",
+		"a2cc": "SH",
+		"a3cc": "SHN",
+		"numeric": 654,
+		"lat": -15.9333,
+		"long": -5.7,
+		"timezone": "Atlantic/St_Helena"
+	},
+	{
+		"name": "Saint Kitts and Nevis",
+		"a2cc": "KN",
+		"a3cc": "KNA",
+		"numeric": 659,
+		"lat": 17.3333,
+		"long": -62.75,
+		"timezone": "America/St_Kitts"
+	},
+	{
+		"name": "Saint Lucia",
+		"a2cc": "LC",
+		"a3cc": "LCA",
+		"numeric": 662,
+		"lat": 13.8833,
+		"long": -61.1333,
+		"timezone": "America/St_Lucia"
+	},
+	{
+		"name": "Saint Pierre and Miquelon",
+		"a2cc": "PM",
+		"a3cc": "SPM",
+		"numeric": 666,
+		"lat": 46.8333,
+		"long": -56.3333,
+		"timezone": "America/Miquelon"
+	},
+	{
+		"name": "Saint Vincent and the Grenadines",
+		"a2cc": "VC",
+		"a3cc": "VCT",
+		"numeric": 670,
+		"lat": 13.25,
+		"long": -61.2,
+		"timezone": "America/St_Vincent"
+	},
+	{
+		"name": "Saint Vincent & the Grenadines",
+		"a2cc": "VC",
+		"a3cc": "VCT",
+		"numeric": 670,
+		"lat": 13.25,
+		"long": -61.2,
+		"timezone": "America/St_Vincent"
+	},
+	{
+		"name": "St. Vincent and the Grenadines",
+		"a2cc": "VC",
+		"a3cc": "VCT",
+		"numeric": 670,
+		"lat": 13.25,
+		"long": -61.2,
+		"timezone": "America/St_Vincent"
+	},
+	{
+		"name": "Samoa",
+		"a2cc": "WS",
+		"a3cc": "WSM",
+		"numeric": 882,
+		"lat": -13.5833,
+		"long": -172.3333,
+		"timezone": "Pacific/Apia"
+	},
+	{
+		"name": "San Marino",
+		"a2cc": "SM",
+		"a3cc": "SMR",
+		"numeric": 674,
+		"lat": 43.7667,
+		"long": 12.4167,
+		"timezone": "Europe/San_Marino"
+	},
+	{
+		"name": "Sao Tome and Principe",
+		"a2cc": "ST",
+		"a3cc": "STP",
+		"numeric": 678,
+		"lat": 1,
+		"long": 7,
+		"timezone": "Africa/Sao_Tome"
+	},
+	{
+		"name": "Saudi Arabia",
+		"a2cc": "SA",
+		"a3cc": "SAU",
+		"numeric": 682,
+		"lat": 25,
+		"long": 45,
+		"timezone": "Asia/Riyadh"
+	},
+	{
+		"name": "Senegal",
+		"a2cc": "SN",
+		"a3cc": "SEN",
+		"numeric": 686,
+		"lat": 14,
+		"long": -14,
+		"timezone": "Africa/Dakar"
+	},
+	{
+		"name": "Serbia",
+		"a2cc": "RS",
+		"a3cc": "SRB",
+		"numeric": 688,
+		"lat": 44,
+		"long": 21,
+		"timezone": "Europe/Belgrade"
+	},
+	{
+		"name": "Seychelles",
+		"a2cc": "SC",
+		"a3cc": "SYC",
+		"numeric": 690,
+		"lat": -4.5833,
+		"long": 55.6667,
+		"timezone": "Indian/Mahe"
+	},
+	{
+		"name": "Sierra Leone",
+		"a2cc": "SL",
+		"a3cc": "SLE",
+		"numeric": 694,
+		"lat": 8.5,
+		"long": -11.5,
+		"timezone": "Africa/Freetown"
+	},
+	{
+		"name": "Singapore",
+		"a2cc": "SG",
+		"a3cc": "SGP",
+		"numeric": 702,
+		"lat": 1.3667,
+		"long": 103.8,
+		"timezone": "Asia/Singapore"
+	},
+	{
+		"name": "Slovakia",
+		"a2cc": "SK",
+		"a3cc": "SVK",
+		"numeric": 703,
+		"lat": 48.6667,
+		"long": 19.5,
+		"timezone": "Europe/Bratislava"
+	},
+	{
+		"name": "Slovenia",
+		"a2cc": "SI",
+		"a3cc": "SVN",
+		"numeric": 705,
+		"lat": 46,
+		"long": 15,
+		"timezone": "Europe/Ljubljana"
+	},
+	{
+		"name": "Solomon Islands",
+		"a2cc": "SB",
+		"a3cc": "SLB",
+		"numeric": 90,
+		"lat": -8,
+		"long": 159,
+		"timezone": "Pacific/Guadalcanal"
+	},
+	{
+		"name": "Somalia",
+		"a2cc": "SO",
+		"a3cc": "SOM",
+		"numeric": 706,
+		"lat": 10,
+		"long": 49,
+		"timezone": "Africa/Mogadishu"
+	},
+	{
+		"name": "South Africa",
+		"a2cc": "ZA",
+		"a3cc": "ZAF",
+		"numeric": 710,
+		"lat": -29,
+		"long": 24,
+		"timezone": "Africa/Johannesburg"
+	},
+	{
+		"name": "South Georgia and the South Sandwich Islands",
+		"a2cc": "GS",
+		"a3cc": "SGS",
+		"numeric": 239,
+		"lat": -54.5,
+		"long": -37,
+		"timezone": "Atlantic/South_Georgia"
+	},
+	{
+		"name": "South Sudan",
+		"a2cc": "SS",
+		"a3cc": "SSD",
+		"numeric": 728,
+		"lat": 8,
+		"long": 30,
+		"timezone": "Africa/Juba"
+	},
+	{
+		"name": "Spain",
+		"a2cc": "ES",
+		"a3cc": "ESP",
+		"numeric": 724,
+		"lat": 40,
+		"long": -4,
+		"timezone": "Europe/Madrid"
+	},
+	{
+		"name": "Sri Lanka",
+		"a2cc": "LK",
+		"a3cc": "LKA",
+		"numeric": 144,
+		"lat": 7,
+		"long": 81,
+		"timezone": "Asia/Colombo"
+	},
+	{
+		"name": "Sudan",
+		"a2cc": "SD",
+		"a3cc": "SDN",
+		"numeric": 736,
+		"lat": 15,
+		"long": 30,
+		"timezone": "Africa/Khartoum"
+	},
+	{
+		"name": "Suriname",
+		"a2cc": "SR",
+		"a3cc": "SUR",
+		"numeric": 740,
+		"lat": 4,
+		"long": -56,
+		"timezone": "America/Paramaribo"
+	},
+	{
+		"name": "Svalbard and Jan Mayen",
+		"a2cc": "SJ",
+		"a3cc": "SJM",
+		"numeric": 744,
+		"lat": 78,
+		"long": 20,
+		"timezone": "Arctic/Longyearbyen"
+	},
+	{
+		"name": "Swaziland",
+		"a2cc": "SZ",
+		"a3cc": "SWZ",
+		"numeric": 748,
+		"lat": -26.5,
+		"long": 31.5,
+		"timezone": "Africa/Mbabane"
+	},
+	{
+		"name": "Sweden",
+		"a2cc": "SE",
+		"a3cc": "SWE",
+		"numeric": 752,
+		"lat": 62,
+		"long": 15,
+		"timezone": "Europe/Stockholm"
+	},
+	{
+		"name": "Switzerland",
+		"a2cc": "CH",
+		"a3cc": "CHE",
+		"numeric": 756,
+		"lat": 47,
+		"long": 8,
+		"timezone": "Europe/Zurich"
+	},
+	{
+		"name": "Syrian Arab Republic",
+		"a2cc": "SY",
+		"a3cc": "SYR",
+		"numeric": 760,
+		"lat": 35,
+		"long": 38,
+		"timezone": "Asia/Damascus"
+	},
+	{
+		"name": "Taiwan,Province of China",
+		"a2cc": "TW",
+		"a3cc": "TWN",
+		"numeric": 158,
+		"lat": 23.5,
+		"long": 121,
+		"timezone": "Asia/Taipei"
+	},
+	{
+		"name": "Taiwan",
+		"a2cc": "TW",
+		"a3cc": "TWN",
+		"numeric": 158,
+		"lat": 23.5,
+		"long": 121,
+		"timezone": "Asia/Taipei"
+	},
+	{
+		"name": "Tajikistan",
+		"a2cc": "TJ",
+		"a3cc": "TJK",
+		"numeric": 762,
+		"lat": 39,
+		"long": 71,
+		"timezone": "Asia/Dushanbe"
+	},
+	{
+		"name": "Tanzania,United Republic of",
+		"a2cc": "TZ",
+		"a3cc": "TZA",
+		"numeric": 834,
+		"lat": -6,
+		"long": 35,
+		"timezone": "Africa/Dar_es_Salaam"
+	},
+	{
+		"name": "Thailand",
+		"a2cc": "TH",
+		"a3cc": "THA",
+		"numeric": 764,
+		"lat": 15,
+		"long": 100,
+		"timezone": "Asia/Bangkok"
+	},
+	{
+		"name": "Timor-Leste",
+		"a2cc": "TL",
+		"a3cc": "TLS",
+		"numeric": 626,
+		"lat": -8.55,
+		"long": 125.5167,
+		"timezone": "Asia/Dili"
+	},
+	{
+		"name": "Togo",
+		"a2cc": "TG",
+		"a3cc": "TGO",
+		"numeric": 768,
+		"lat": 8,
+		"long": 1.1667,
+		"timezone": "Africa/Lome"
+	},
+	{
+		"name": "Tokelau",
+		"a2cc": "TK",
+		"a3cc": "TKL",
+		"numeric": 772,
+		"lat": -9,
+		"long": -172,
+		"timezone": "Pacific/Fakaofo"
+	},
+	{
+		"name": "Tonga",
+		"a2cc": "TO",
+		"a3cc": "TON",
+		"numeric": 776,
+		"lat": -20,
+		"long": -175,
+		"timezone": "Pacific/Tongatapu"
+	},
+	{
+		"name": "Trinidad and Tobago",
+		"a2cc": "TT",
+		"a3cc": "TTO",
+		"numeric": 780,
+		"lat": 11,
+		"long": -61,
+		"timezone": "America/Port_of_Spain"
+	},
+	{
+		"name": "Tunisia",
+		"a2cc": "TN",
+		"a3cc": "TUN",
+		"numeric": 788,
+		"lat": 34,
+		"long": 9,
+		"timezone": "Africa/Tunis"
+	},
+	{
+		"name": "Turkey",
+		"a2cc": "TR",
+		"a3cc": "TUR",
+		"numeric": 792,
+		"lat": 39,
+		"long": 35,
+		"timezone": "Europe/Istanbul"
+	},
+	{
+		"name": "Turkmenistan",
+		"a2cc": "TM",
+		"a3cc": "TKM",
+		"numeric": 795,
+		"lat": 40,
+		"long": 60,
+		"timezone": "Asia/Ashgabat"
+	},
+	{
+		"name": "Turks and Caicos Islands",
+		"a2cc": "TC",
+		"a3cc": "TCA",
+		"numeric": 796,
+		"lat": 21.75,
+		"long": -71.5833,
+		"timezone": "America/Grand_Turk"
+	},
+	{
+		"name": "Tuvalu",
+		"a2cc": "TV",
+		"a3cc": "TUV",
+		"numeric": 798,
+		"lat": -8,
+		"long": 178,
+		"timezone": "Pacific/Funafuti"
+	},
+	{
+		"name": "Uganda",
+		"a2cc": "UG",
+		"a3cc": "UGA",
+		"numeric": 800,
+		"lat": 1,
+		"long": 32,
+		"timezone": "Africa/Kampala"
+	},
+	{
+		"name": "Ukraine",
+		"a2cc": "UA",
+		"a3cc": "UKR",
+		"numeric": 804,
+		"lat": 49,
+		"long": 32,
+		"timezone": "Europe/Simferopol"
+	},
+	{
+		"name": "United Arab Emirates",
+		"a2cc": "AE",
+		"a3cc": "ARE",
+		"numeric": 784,
+		"lat": 24,
+		"long": 54,
+		"timezone": "Asia/Dubai"
+	},
+	{
+		"name": "United Kingdom",
+		"a2cc": "GB",
+		"a3cc": "GBR",
+		"numeric": 826,
+		"lat": 54,
+		"long": -2,
+		"timezone": "Europe/London"
+	},
+	{
+		"name": "United States",
+		"a2cc": "US",
+		"a3cc": "USA",
+		"numeric": 840,
+		"lat": 38,
+		"long": -97,
+		"timezone": "Pacific/Honolulu"
+	},
+	{
+		"name": "United States Minor Outlying Islands",
+		"a2cc": "UM",
+		"a3cc": "UMI",
+		"numeric": 581,
+		"lat": 19.2833,
+		"long": 166.6,
+		"timezone": "Pacific/Wake"
+	},
+	{
+		"name": "Uruguay",
+		"a2cc": "UY",
+		"a3cc": "URY",
+		"numeric": 858,
+		"lat": -33,
+		"long": -56,
+		"timezone": "America/Montevideo"
+	},
+	{
+		"name": "Uzbekistan",
+		"a2cc": "UZ",
+		"a3cc": "UZB",
+		"numeric": 860,
+		"lat": 41,
+		"long": 64,
+		"timezone": "Asia/Tashkent"
+	},
+	{
+		"name": "Vanuatu",
+		"a2cc": "VU",
+		"a3cc": "VUT",
+		"numeric": 548,
+		"lat": -16,
+		"long": 167,
+		"timezone": "Pacific/Efate"
+	},
+	{
+		"name": "Venezuela,Bolivarian Republic of",
+		"a2cc": "VE",
+		"a3cc": "VEN",
+		"numeric": 862,
+		"lat": 8,
+		"long": -66,
+		"timezone": "America/Caracas"
+	},
+	{
+		"name": "Venezuela",
+		"a2cc": "VE",
+		"a3cc": "VEN",
+		"numeric": 862,
+		"lat": 8,
+		"long": -66,
+		"timezone": "America/Caracas"
+	},
+	{
+		"name": "Viet Nam",
+		"a2cc": "VN",
+		"a3cc": "VNM",
+		"numeric": 704,
+		"lat": 16,
+		"long": 106,
+		"timezone": "Asia/Ho_Chi_Minh"
+	},
+	{
+		"name": "Vietnam",
+		"a2cc": "VN",
+		"a3cc": "VNM",
+		"numeric": 704,
+		"lat": 16,
+		"long": 106,
+		"timezone": "Asia/Ho_Chi_Minh"
+	},
+	{
+		"name": "Virgin Islands,British",
+		"a2cc": "VG",
+		"a3cc": "VGB",
+		"numeric": 92,
+		"lat": 18.5,
+		"long": -64.5,
+		"timezone": "America/Tortola"
+	},
+	{
+		"name": "Virgin Islands,U.S.",
+		"a2cc": "VI",
+		"a3cc": "VIR",
+		"numeric": 850,
+		"lat": 18.3333,
+		"long": -64.8333,
+		"timezone": "America/St_Thomas"
+	},
+	{
+		"name": "Wallis and Futuna",
+		"a2cc": "WF",
+		"a3cc": "WLF",
+		"numeric": 876,
+		"lat": -13.3,
+		"long": -176.2,
+		"timezone": "Pacific/Wallis"
+	},
+	{
+		"name": "Western Sahara",
+		"a2cc": "EH",
+		"a3cc": "ESH",
+		"numeric": 732,
+		"lat": 24.5,
+		"long": -13,
+		"timezone": "Africa/Cairo"
+	},
+	{
+		"name": "Yemen",
+		"a2cc": "YE",
+		"a3cc": "YEM",
+		"numeric": 887,
+		"lat": 15,
+		"long": 48,
+		"timezone": "Asia/Aden"
+	},
+	{
+		"name": "Zambia",
+		"a2cc": "ZM",
+		"a3cc": "ZMB",
+		"numeric": 894,
+		"lat": -15,
+		"long": 30,
+		"timezone": "Africa/Lusaka"
+	},
+	{
+		"name": "Zimbabwe",
+		"a2cc": "ZW",
+		"a3cc": "ZWE",
+		"numeric": 716,
+		"lat": -20,
+		"long": 30,
+		"timezone": "Africa/Harare"
+	}
+]
