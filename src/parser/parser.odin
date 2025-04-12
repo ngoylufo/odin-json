@@ -3,30 +3,30 @@ package parser
 import "core:strconv"
 import "base:runtime"
 
+import "src:utils"
+
 Parser :: struct {
-  source: []byte,
+  source: ^utils.Source,
   cursor: int,
 }
 
-parser :: proc(source: []byte) -> ^Parser {
-  p := new(Parser)
-  p.source = source
-
+parser :: proc(source: ^utils.Source, allocator := context.allocator) -> ^Parser {
+  p := new(Parser, allocator)
+  p^ = Parser{ source, 0 }
   return p
 }
 
 eof :: proc(p: ^Parser) -> bool {
-  return p.cursor >= len(p.source)
+  return p.cursor >= len(p.source.data)
 }
 
 peek :: proc(p: ^Parser) -> byte {
-  return eof(p) ? 0 : p.source[p.cursor]
+  return eof(p) ? 0 : p.source.data[p.cursor]
 }
 
 next :: proc(p: ^Parser) -> byte {
-  idx := p.cursor
   p.cursor += 1
-  return p.source[idx]
+  return p.source.data[p.cursor - 1]
 }
 
 consume_whitespace :: proc(p: ^Parser) {
@@ -41,17 +41,43 @@ consume :: proc(p:^Parser, char: byte, loc := #caller_location) -> Parsing_Error
 }
 
 parse_string :: proc(p: ^Parser, node: ^Node) -> Parsing_Error {
-  start, end := p.cursor, p.cursor
-  for end <= len(p.source) && p.source[end] != '"' {
-    // Todo: Espace sequences need checking.
-    end += 1
+  start := p.cursor
+  for char := peek(p); !(eof(p) || char == '"'); char = peek(p) {
+    if char >= 0 && char <= 31 do return Unexpected_Control_Character{ char }
+    if char == '\\' do switch peek(p) {
+    case 't', 'r', 'n', 'f', 'b', '/', '\\', '"':
+      consume(p, peek(p))
+    case 'u':
+      consume(p, 'u')
+      for i := 0; i < 4; i += 1 {
+        if !is_hex_digit(p.source.data[p.cursor + i]) {
+          sequence := cast(string)p.source.data[p.cursor:p.cursor+4]
+          return Invalid_Escape_Sequence{ sequence = sequence }
+        }
+      }
+      p.cursor += 4
+    }
+    next(p)
   }
-  p.cursor = end
+  
+  // start, end := p.cursor, p.cursor
+  // for end <= len(p.source) && p.source.data[end] != '"' {
+  //   if char := p.source.data[end]; char == '\\' {
+  //     switch peek(t) {
+  //     case:
+        
+  //     }
+  //   }
+  
+  //   // Todo: Espace sequences need checking.
+  //   end += 1
+  // }
+  // p.cursor = end
   consume(p, '"') or_return
 
-  str := String{ data = p.source[start:end] }
+  str := String{ data = p.source.data[start:p.cursor] }
   node.data = str
-  
+
   return nil
 }
 
@@ -63,7 +89,7 @@ parse_number :: proc(p: ^Parser, node: ^Node) -> Parsing_Error {
     p.cursor += 1
   }
 
-  str := cast(string)p.source[start:p.cursor ]
+  str := cast(string)p.source.data[start:p.cursor]
   node.data = Number{ value = strconv.atof(str) }
 
   return nil
@@ -75,7 +101,7 @@ parse_keyword :: proc(p: ^Parser, node: ^Node) -> Parsing_Error {
       p.cursor += 1
   }
 
-  keyword := cast(string)p.source[start:p.cursor]
+  keyword := cast(string)p.source.data[start:p.cursor]
   
   if keyword == "true" {
     node.data = Boolean{true}
@@ -95,14 +121,14 @@ parse_keyword :: proc(p: ^Parser, node: ^Node) -> Parsing_Error {
   return Unexpected_Keyword{ word = keyword }
 }
 
-parse_array :: proc(p: ^Parser, node: ^Node) -> Parsing_Error {
+parse_array :: proc(p: ^Parser, node: ^Node, allocator := context.allocator) -> Parsing_Error {
   // node.data = Array{}
-  values := make([dynamic]JSON, 0, 8)
+  values := make([dynamic]JSON, 0, 8, allocator)
   
   for char := peek(p); !(eof(p) || char == ']'); char = peek(p) {
     n: Node = Node { prev = node }
     
-    parse(p, &n) or_return
+    parse(p, &n, allocator) or_return
     consume_whitespace(p)
       
     if peek(p) == ',' {
@@ -125,8 +151,8 @@ parse_array :: proc(p: ^Parser, node: ^Node) -> Parsing_Error {
   return nil
 }
 
-parse_object :: proc(p: ^Parser, node: ^Node) -> Parsing_Error {
-  obj := make(map[string]JSON)
+parse_object :: proc(p: ^Parser, node: ^Node, allocator := context.allocator) -> Parsing_Error {
+  obj := make(map[string]JSON, allocator)
 
   for char := peek(p); !(eof(p) || char == '}'); char = peek(p) {
     key, value: Node = { prev = node }, { prev = node }
@@ -138,7 +164,7 @@ parse_object :: proc(p: ^Parser, node: ^Node) -> Parsing_Error {
     consume_whitespace(p)
     consume(p, ':') or_return
 
-    parse(p, &value) or_return
+    parse(p, &value, allocator) or_return
     consume_whitespace(p)
 
     if peek(p) == ',' {
@@ -172,16 +198,24 @@ is_character :: proc(c: byte) -> bool {
 }
 
 is_start_of_number := proc(c: byte) -> bool {
-  return c == '-' || c >= 48 && c <= 57
+  return c == '-' || is_digit(c)
 } 
 
 is_valid_number_character := proc(c: byte) -> bool {
   return is_start_of_number(c) || c == '+' || c == 'e' || c == 'E' || c == '.'
 }
 
+is_digit :: proc(c: byte) -> bool {
+  return c >= 48 && c <= 57
+}
+
+is_hex_digit :: proc(c: byte) -> bool {
+  return is_digit(c) || c >= 65 && c <= 70 || c >= 97 && c <= 102
+}
+
 Node :: struct { prev: ^Node, data: JSON }
 
-parse :: proc(p: ^Parser, node: ^Node, loc := #caller_location) -> Parsing_Error {
+parse :: proc(p: ^Parser, node: ^Node, allocator := context.allocator, loc := #caller_location) -> Parsing_Error {
   consume_whitespace(p)
   
   if !eof(p) do switch char := next(p); true {
@@ -192,9 +226,9 @@ parse :: proc(p: ^Parser, node: ^Node, loc := #caller_location) -> Parsing_Error
   case char == 't', char == 'f', char == 'n':
     parse_keyword(p, node) or_return
   case char == '[':
-    parse_array(p, node) or_return
+    parse_array(p, node, allocator) or_return
   case char == '{':
-    parse_object(p, node) or_return
+    parse_object(p, node, allocator) or_return
   case:
     return Unexpected_Character{ loc, char }
   }
@@ -202,18 +236,37 @@ parse :: proc(p: ^Parser, node: ^Node, loc := #caller_location) -> Parsing_Error
   return nil
 }
 
-run :: proc(p: ^Parser) -> (data: JSON, err: Parsing_Error) {
-  node: Node
-  parse(p, &node) or_return
-  if node.data == nil {
-    return nil, Unexpected_Nothingness{}
-  }
-  return node.data, nil
+run :: proc(p: ^Parser, allocator := context.allocator) -> JSON {
+    node: Node
+
+    if err := parse(p, &node, allocator); err != nil {
+        switch v in err {
+        case Unexpected_End_Of_Content:
+            utils.exit("Malformed JSON: Unexpected end of content")
+        case Unexpected_Malformed_Value:
+            utils.exit("Malformed JSON: %s", v.reason)
+        case Unexpected_Nothingness:
+            utils.exit("Expected JSON content but got absolutely nothing")
+        case Unexpected_Character:
+            utils.exit("Unexpected character: %c", v.char, loc=v.loc)
+        case Unexpected_Character_Mismatch:
+            utils.exit("Expected %c but instead got %c", v.expected, v.received, loc=v.loc)
+        case Unexpected_Keyword:
+            utils.exit("Expected a keyword (true, false, null) but instead got %s", v.word)
+        case Invalid_Escape_Sequence:
+            utils.exit("Invalid_Escape_Sequence: %s", v.sequence)
+        case Unexpected_Control_Character:
+            utils.exit("Unexpected control character: %c", v.char)
+        }
+    }
+
+    if node.data == nil {
+        utils.exit("Expected JSON content but got absolutely nothing")
+    }
+
+    return node.data
 }
 
-// print_error :: proc(err: Parsing_Error) {
-
-// }
 
 JSON :: union {
   String,
@@ -268,6 +321,14 @@ Unexpected_Keyword :: struct {
   word: string,
 }
 
+Invalid_Escape_Sequence :: struct {
+  sequence: string,
+}
+
+Unexpected_Control_Character :: struct {
+  char: byte,
+}
+
 Parsing_Error :: union {
   Unexpected_Nothingness,
   Unexpected_End_Of_Content,
@@ -275,5 +336,7 @@ Parsing_Error :: union {
   Unexpected_Character_Mismatch,
   Unexpected_Keyword,
   Unexpected_Malformed_Value,
+  Invalid_Escape_Sequence,
+  Unexpected_Control_Character,
 }
 
